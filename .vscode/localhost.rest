@@ -1,0 +1,28 @@
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/veduci
+
+###
+GET http://localhost:3000/veduci/2
+
+###
+POST http://localhost:3000/veduci
+content-type: application/json
+
+{
+  "meno": "Norbert",
+  "priezvisko": "Pecze",
+  "titul": "Bc."
+}
+
+###
+PUT http://localhost:3000/veduci/4
+content-type: application/json
+
+{
+  "titul": "Ing."
+}
+
+###
+DELETE http://localhost:3000/veduci/11
