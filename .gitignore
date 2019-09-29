@@ -43,7 +43,7 @@ testem.log
 /typings
 
 .env
-db-scripts/create.sql
+db/create.sql
 
 # System Files
 .DS_Store
